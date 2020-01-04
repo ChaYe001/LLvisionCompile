@@ -1,0 +1,62 @@
+<schemalist>
+  <schema id="org.gnome.software" path="/org/gnome/software/" gettext-domain="gnome-software">
+    <key name="compatible-projects" type="as">
+      <default>['GNOME', 'KDE', 'XFCE']</default>
+      <summary>A list of compatible projects</summary>
+      <description>This is a list of compatible projects we should show such as GNOME, KDE and XFCE.</description>
+    </key>
+    <key name="download-updates" type="b">
+      <default>true</default>
+      <summary>Whether to automatically download updates</summary>
+      <description>If enabled, GNOME Software automatically downloads updates in the background and prompts the user to install them when ready.</description>
+    </key>
+    <key name="first-run" type="b">
+      <default>true</default>
+      <summary>Whether it's the very first run of GNOME Software</summary>
+    </key>
+    <key name="show-ratings" type="b">
+      <default>false</default>
+      <summary>Show star ratings next to applications</summary>
+    </key>
+    <key name="prompt-for-nonfree" type="b">
+      <default>true</default>
+      <summary>Non-free applications show a warning dialog before install</summary>
+      <description>When non-free applications are installed a warning dialog can be shown. This controls if that dialog is suppressed.</description>
+    </key>
+    <key name="popular-overrides" type="as">
+      <default>[]</default>
+      <summary>A list of popular applications</summary>
+      <description>A list of applications to use, overriding the system defined ones.</description>
+    </key>
+    <key name="extra-sources" type="as">
+      <default>[]</default>
+      <summary>The list of extra sources that have been previously enabled</summary>
+      <description>The list of sources that have been previously enabled when installing third-party applications.</description>
+    </key>
+    <key name="check-timestamp" type="x">
+      <default>0</default>
+      <summary>The last update check timestamp</summary>
+    </key>
+    <key name="security-timestamp" type="x">
+      <default>0</default>
+      <summary>The timestamp of the first security update, cleared after update</summary>
+    </key>
+    <key name="install-timestamp" type="x">
+      <default>0</default>
+      <summary>The last update timestamp</summary>
+    </key>
+    <key name="review-server" type="s">
+      <default>'https://odrs.gnome.org/1.0/reviews/api'</default>
+      <summary>The server to use for application reviews</summary>
+    </key>
+    <key name="review-karma-required" type="i">
+      <default>0</default>
+      <summary>The minimum karma score for reviews</summary>
+      <description>Reviews with karma less than this number will not be shown.</description>
+    </key>
+    <key name="official-sources" type="as">
+      <default>[]</default>
+      <summary>A list of official sources that should not be considered 3rd party</summary>
+    </key>
+  </schema>
+</schemalist>

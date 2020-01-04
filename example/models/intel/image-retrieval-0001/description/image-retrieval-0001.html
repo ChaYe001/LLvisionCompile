@@ -1,0 +1,72 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="image-retrieval-0001">image-retrieval-0001</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>Image retrieval model based on <a href="https://arxiv.org/pdf/1801.04381.pdf">MobileNetV2</a> architecture as a backbone.</p>
+<h2 id="example">Example</h2>
+<div class="figure">
+<img src="./image-retrieval-0001.jpg" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Top1 accuracy</td>
+<td align="left">0.834</td>
+</tr>
+<tr class="even">
+<td align="left">GFlops</td>
+<td align="left">0.613</td>
+</tr>
+<tr class="odd">
+<td align="left">MParams</td>
+<td align="left">2.535</td>
+</tr>
+<tr class="even">
+<td align="left">Source framework</td>
+<td align="left">TensorFlow*</td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<p>Name: &quot;input&quot; , shape: [1x3x224x224] — An input image in the format [BxCxHxW], where:</p>
+<pre><code>- B - batch size
+- C - number of channels
+- H - image height
+- W - image width</code></pre>
+<p>Expected color order - BGR.</p>
+<h2 id="outputs">Outputs</h2>
+<p>One [1x256]-shaped tensor — image embedding vector.</p>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

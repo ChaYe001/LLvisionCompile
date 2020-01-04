@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+<schema path="/org/gnome/desktop/file-sharing/" id="org.gnome.desktop.file-sharing" gettext-domain="gnome-user-share">
+	<key type="b" name="enabled">
+		<default>false</default>
+		<summary>Share Public directory over the network</summary>
+		<description>If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in.</description>
+	</key>
+
+	<key type="s" name="require-password">
+		<default>'never'</default>
+		<summary>When to require passwords</summary>
+		<description>When to ask for passwords. Possible values are "never", "on_write", and "always".</description>
+	</key>
+
+	<key type="b" name="bluetooth-obexpush-enabled">
+		<default>false</default>
+		<summary>Whether Bluetooth clients can send files using ObexPush.</summary>
+		<description>If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in.</description>
+	</key>
+
+	<key type="s" name="bluetooth-accept-files">
+		<default>'bonded'</default>
+		<summary>When to accept files sent over Bluetooth</summary>
+		<description>When to accept files sent over Bluetooth. Possible values are "always", "bonded" and "ask".</description>
+	</key>
+
+	<key type="b" name="bluetooth-notify">
+		<default>true</default>
+		<summary>Whether to notify about newly received files.</summary>
+		<description>Whether to notify about newly received files.</description>
+	</key>
+</schema>
+</schemalist>

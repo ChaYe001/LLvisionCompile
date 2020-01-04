@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="text-recognition-0012">text-recognition-0012</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This is a network for text recognition scenario. It consists of VGG16-like backbone and bidirectional LSTM encoder-decoder. The network is able to recognize case-insensitive alpha-numeric text (36 unique symbols).</p>
+<h2 id="example">Example</h2>
+<p><img src="./openvino.jpg" /> -&gt; openvino</p>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Accuracy on the alphanumeric subset of ICDAR13</td>
+<td align="left">0.8818</td>
+</tr>
+<tr class="even">
+<td align="left">Text location requirements</td>
+<td align="left">Tight aligned crop</td>
+</tr>
+<tr class="odd">
+<td align="left">GFlops</td>
+<td align="left">1.485</td>
+</tr>
+<tr class="even">
+<td align="left">MParams</td>
+<td align="left">5.568</td>
+</tr>
+<tr class="odd">
+<td align="left">Source framework</td>
+<td align="left">TensorFlow</td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<p>Shape: [1x1x32x120] - An input image in the format [BxCxHxW], where: - B - batch size - C - number of channels - H - image height - W - image width</p>
+<p>Note that the source image should be tight aligned crop with detected text converted to grayscale.</p>
+<h2 id="outputs">Outputs</h2>
+<p>The net outputs a blob with the shape [30, 1, 37] in the format [WxBxL], where: - W - output sequence length - B - batch size - L - confidence distribution across alpha-numeric symbols: &quot;0123456789abcdefghijklmnopqrstuvwxyz#&quot;, where # - special blank character for CTC decoding algorithm.</p>
+<p>The network output can be decoded by CTC Greedy Decoder or CTC Beam Search decoder.</p>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

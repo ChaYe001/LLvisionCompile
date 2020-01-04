@@ -1,0 +1,159 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="license-plate-recognition-barrier-0001">license-plate-recognition-barrier-0001</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This model uses a small-footprint network trained end-to-end to recognize Chinese license plates in traffic.</p>
+<h2 id="validation-dataset---internal">Validation Dataset - Internal</h2>
+<p>1165 Chinese plates from different provinces</p>
+<h2 id="example">Example</h2>
+<p><strong>Note:</strong> The license plates on the image were modified to protect the owners' privacy.</p>
+<div class="figure">
+<img src="./license-plate-recognition-barrier-0001.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rotation in-plane</td>
+<td align="left">±10˚</td>
+</tr>
+<tr class="even">
+<td align="left">Rotation out-of-plane</td>
+<td align="left">Yaw: ±45˚ / Pitch: ±45˚</td>
+</tr>
+<tr class="odd">
+<td align="left">Min plate width</td>
+<td align="left">94 pixels</td>
+</tr>
+<tr class="even">
+<td align="left">Ratio of correct reads</td>
+<td align="left">88.58%</td>
+</tr>
+<tr class="odd">
+<td align="left">GFlops</td>
+<td align="left">0.328</td>
+</tr>
+<tr class="even">
+<td align="left">MParams</td>
+<td align="left">1.218</td>
+</tr>
+<tr class="odd">
+<td align="left">Source framework</td>
+<td align="left">Caffe*</td>
+</tr>
+</tbody>
+</table>
+<h2 id="limitations">Limitations</h2>
+<p>Only &quot;blue&quot; license plates, which are common in public, were tested thoroughly. Other types of license plates may underperform.</p>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: &quot;data&quot; , shape: [1x3x24x94] - An input image in following format [1xCxHxW]. Expected color order is BGR.</li>
+<li>name: &quot;seq_ind&quot; , shape: [88,1] - An auxiliary blob that is needed for correct decoding. Set this to <code>[0, 1, 1, ..., 1]</code>.</li>
+</ol>
+<h2 id="outputs">Outputs</h2>
+<ol style="list-style-type: decimal">
+<li><p>name: &quot;decode&quot;, shape: [1, 88, 1, 1] - Encoded vector of floats. Each float is an integer number encoding a character according to this dictionary:</p>
+<pre><code>0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 &lt;Anhui&gt;
+11 &lt;Beijing&gt;
+12 &lt;Chongqing&gt;
+13 &lt;Fujian&gt;
+14 &lt;Gansu&gt;
+15 &lt;Guangdong&gt;
+16 &lt;Guangxi&gt;
+17 &lt;Guizhou&gt;
+18 &lt;Hainan&gt;
+19 &lt;Hebei&gt;
+20 &lt;Heilongjiang&gt;
+21 &lt;Henan&gt;
+22 &lt;HongKong&gt;
+23 &lt;Hubei&gt;
+24 &lt;Hunan&gt;
+25 &lt;InnerMongolia&gt;
+26 &lt;Jiangsu&gt;
+27 &lt;Jiangxi&gt;
+28 &lt;Jilin&gt;
+29 &lt;Liaoning&gt;
+30 &lt;Macau&gt;
+31 &lt;Ningxia&gt;
+32 &lt;Qinghai&gt;
+33 &lt;Shaanxi&gt;
+34 &lt;Shandong&gt;
+35 &lt;Shanghai&gt;
+36 &lt;Shanxi&gt;
+37 &lt;Sichuan&gt;
+38 &lt;Tianjin&gt;
+39 &lt;Tibet&gt;
+40 &lt;Xinjiang&gt;
+41 &lt;Yunnan&gt;
+42 &lt;Zhejiang&gt;
+43 &lt;police&gt;
+44 A
+45 B
+46 C
+47 D
+48 E
+49 F
+50 G
+51 H
+52 I
+53 J
+54 K
+55 L
+56 M
+57 N
+58 O
+59 P
+60 Q
+61 R
+62 S
+63 T
+64 U
+65 V
+66 W
+67 X
+68 Y
+69 Z</code></pre></li>
+</ol>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

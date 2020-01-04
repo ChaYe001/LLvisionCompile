@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3289" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="90" width="90" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3294">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -962.36)">
+  <g id="g4451" transform="translate(-789 604.36)">
+   <g id="g4401" transform="matrix(2,0,0,2,-1195,-252)">
+    <rect id="rect4403-3" style="fill:none" transform="scale(-1,1)" height="45" width="45" y="305" x="-1037"/>
+    <path id="path3804" style="opacity:.25;fill:#ccc" transform="matrix(.5 0 0 .5 992 305)" d="m35 24v4h-6c-2 0-3.75-0.016-5.281 0-10.719 0.109-10.719 1-10.719 8v18c0 8 0 8 16 8h6v4h4v-4h16c16 0 16 0 16-8v-18c0-8 0-8-16-8h-16v-4h-4zm39.938 9.062c0.042 0.895 0.062 1.858 0.062 2.938v18c0 1.08-0.02 2.043-0.062 2.938 0.66-0.032 1.254-0.091 1.781-0.157 0.098-0.012 0.187-0.017 0.281-0.031v-23.5c-0.087-0.013-0.191-0.02-0.281-0.031-0.527-0.066-1.121-0.125-1.781-0.157z"/>
+    <path id="path3810" style="opacity:.5;fill:#ccc" transform="matrix(.5 0 0 .5 992 305)" d="m39 24v4h16c16 0 16 0 16 8v18c0 8 0 8-16 8h-16v4h16c18 0 20 0 20-12v-18c0-12-2-12-20-12h-16z"/>
+    <path id="path3820" style="opacity:.5;fill:#ccc" d="m1030.5 321.62v11.75c1.7155-0.25071 2-1.004 2-3.2969v-5.1562c0-2.2929-0.2845-3.0462-2-3.2969z"/>
+    <path id="path3837" style="fill:#ccc" transform="matrix(.5 0 0 .5 992 305)" d="m29 24c-18 0-20 0-20 12v18c0 12 2 12 20 12h6v-42h-6z"/>
+    <g id="g4038">
+     <path id="path4036" style="opacity:0.13;stroke-linejoin:round;stroke:#000;stroke-width:2;fill:none" d="m1024.5 327.5-13.5-5.5v5.5l-9.5-0.002 13.5 5.5018v-5.5z"/>
+     <path id="path4034" d="m1024.5 327.5-13.5-5.5v5.5l-9.5-0.002 13.5 5.5018v-5.5z" style="opacity:0.13;stroke-linejoin:round;stroke:#000;fill:none"/>
+     <path id="path3847" style="fill:#fff" d="m1024.5 327.5-13.5-5.5v5.5l-9.5-0.002 13.5 5.5018v-5.5z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

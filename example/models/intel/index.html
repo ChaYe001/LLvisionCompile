@@ -1,0 +1,583 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="./intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="./intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="overview-of-openvino-toolkit-pre-trained-models">Overview of OpenVINO™ Toolkit Pre-Trained Models</h1>
+<p>OpenVINO™ toolkit provides a set of pre-trained models that you can use for learning and demo purposes or for developing deep learning software. Most recent version is available in the <a href="https://github.com/opencv/open_model_zoo">repo on Github</a>.</p>
+<p>The models can be downloaded via Model Downloader (<code>&lt;OPENVINO_INSTALL_DIR&gt;/deployment_tools/open_model_zoo/tools/downloader</code>). They can also be downloaded manually from <a href="https://download.01.org/opencv">01.org</a>.</p>
+<h2 id="object-detection-models">Object Detection Models</h2>
+<p>Several detection models can be used to detect a set of the most popular objects - for example, faces, people, vehicles. Most of the networks are SSD-based and provide reasonable accuracy/performance trade-offs. Networks that detect the same types of objects (for example, <code>face-detection-adas-0001</code> and <code>face-detection-retail-0004</code>) provide a choice for higher accuracy/wider applicability at the cost of slower performance, so you can expect a &quot;bigger&quot; network to detect objects of the same type better.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+<th align="left">Face</th>
+<th align="left">Person</th>
+<th align="left">Vehicle</th>
+<th align="left">Bike</th>
+<th align="left">License plate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./face-detection-adas-0001/description/face-detection-adas-0001.html">face-detection-adas-0001</a></td>
+<td align="left">2.835</td>
+<td align="left">1.053</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./face-detection-adas-binary-0001/description/face-detection-adas-binary-0001.html">face-detection-adas-binary-0001</a></td>
+<td align="left">0.819</td>
+<td align="left">1.053</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./face-detection-retail-0004/description/face-detection-retail-0004.html">face-detection-retail-0004</a></td>
+<td align="left">1.067</td>
+<td align="left">0.588</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./face-detection-retail-0005/description/face-detection-retail-0005.html">face-detection-retail-0005</a></td>
+<td align="left">0.982</td>
+<td align="left">1.021</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./person-detection-retail-0002/description/person-detection-retail-0002.html">person-detection-retail-0002</a></td>
+<td align="left">12.427</td>
+<td align="left">3.244</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./person-detection-retail-0013/description/person-detection-retail-0013.html">person-detection-retail-0013</a></td>
+<td align="left">2.300</td>
+<td align="left">0.723</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./person-detection-action-recognition-0005/description/person-detection-action-recognition-0005.html">person-detection-action-recognition-0005</a></td>
+<td align="left">7.140</td>
+<td align="left">1.951</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./person-detection-action-recognition-0006/description/person-detection-action-recognition-0006.html">person-detection-action-recognition-0006</a></td>
+<td align="left">8.225</td>
+<td align="left">2.001</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./person-detection-action-recognition-teacher-0002/description/person-detection-action-recognition-teacher-0002.html">person-detection-action-recognition-teacher-0002</a></td>
+<td align="left">7.140</td>
+<td align="left">1.951</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./person-detection-raisinghand-recognition-0001/description/person-detection-raisinghand-recognition-0001.html">person-detection-raisinghand-recognition-0001</a></td>
+<td align="left">7.138</td>
+<td align="left">1.951</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./pedestrian-detection-adas-0002/description/pedestrian-detection-adas-0002.html">pedestrian-detection-adas-0002</a></td>
+<td align="left">2.836</td>
+<td align="left">1.165</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./pedestrian-detection-adas-binary-0001/description/pedestrian-detection-adas-binary-0001.html">pedestrian-detection-adas-binary-0001</a></td>
+<td align="left">0.945</td>
+<td align="left">1.165</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./pedestrian-and-vehicle-detector-adas-0001/description/pedestrian-and-vehicle-detector-adas-0001.html">pedestrian-and-vehicle-detector-adas-0001</a></td>
+<td align="left">3.974</td>
+<td align="left">1.650</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./vehicle-detection-adas-0002/description/vehicle-detection-adas-0002.html">vehicle-detection-adas-0002</a></td>
+<td align="left">2.798</td>
+<td align="left">1.079</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./vehicle-detection-adas-binary-0001/description/vehicle-detection-adas-binary-0001.html">vehicle-detection-adas-binary-0001</a></td>
+<td align="left">0.942</td>
+<td align="left">1.079</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./person-vehicle-bike-detection-crossroad-0078/description/person-vehicle-bike-detection-crossroad-0078.html">person-vehicle-bike-detection-crossroad-0078</a></td>
+<td align="left">3.964</td>
+<td align="left">1.178</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left">X</td>
+<td align="left">X</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./person-vehicle-bike-detection-crossroad-1016/description/person-vehicle-bike-detection-crossroad-1016.html">person-vehicle-bike-detection-crossroad-1016</a></td>
+<td align="left">3.560</td>
+<td align="left">2.887</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left">X</td>
+<td align="left">X</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./vehicle-license-plate-detection-barrier-0106/description/vehicle-license-plate-detection-barrier-0106.html">vehicle-license-plate-detection-barrier-0106</a></td>
+<td align="left">0.349</td>
+<td align="left">0.634</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left">X</td>
+</tr>
+</tbody>
+</table>
+<h2 id="object-recognition-models">Object Recognition Models</h2>
+<p>Object recognition models are used for classification, regression, and character recognition. Use these networks after a respective detector (for example, Age/Gender recognition after Face Detection).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./age-gender-recognition-retail-0013/description/age-gender-recognition-retail-0013.html">age-gender-recognition-retail-0013</a></td>
+<td align="left">0.094</td>
+<td align="left">2.138</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./head-pose-estimation-adas-0001/description/head-pose-estimation-adas-0001.html">head-pose-estimation-adas-0001</a></td>
+<td align="left">0.105</td>
+<td align="left">1.911</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./license-plate-recognition-barrier-0001/description/license-plate-recognition-barrier-0001.html">license-plate-recognition-barrier-0001</a></td>
+<td align="left">0.328</td>
+<td align="left">1.218</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./vehicle-attributes-recognition-barrier-0039/description/vehicle-attributes-recognition-barrier-0039.html">vehicle-attributes-recognition-barrier-0039</a></td>
+<td align="left">0.126</td>
+<td align="left">0.626</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./emotions-recognition-retail-0003/description/emotions-recognition-retail-0003.html">emotions-recognition-retail-0003</a></td>
+<td align="left">0.126</td>
+<td align="left">2.483</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./landmarks-regression-retail-0009/description/landmarks-regression-retail-0009.html">landmarks-regression-retail-0009</a></td>
+<td align="left">0.021</td>
+<td align="left">0.191</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./facial-landmarks-35-adas-0002/description/facial-landmarks-35-adas-0002.html">facial-landmarks-35-adas-0002</a></td>
+<td align="left">0.042</td>
+<td align="left">4.595</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./person-attributes-recognition-crossroad-0230/description/person-attributes-recognition-crossroad-0230.html">person-attributes-recognition-crossroad-0230</a></td>
+<td align="left">0.174</td>
+<td align="left">0.735</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./gaze-estimation-adas-0002/description/gaze-estimation-adas-0002.html">gaze-estimation-adas-0002</a></td>
+<td align="left">0.139</td>
+<td align="left">1.882</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reidentification-models">Reidentification Models</h2>
+<p>Precise tracking of objects in a video is a common application of Computer Vision (for example, for people counting). It is often complicated by a set of events that can be described as a &quot;relatively long absence of an object&quot;. For example, it can be caused by occlusion or out-of-frame movement. In such cases, it is better to recognize the object as &quot;seen before&quot; regardless of its current position in an image or the amount of time passed since last known position.</p>
+<p>The following networks can be used in such scenarios. They take an image of a person and evaluate an embedding - a vector in high-dimensional space that represents an appearance of this person. This vector can be used for further evaluation: images that correspond to the same person will have embedding vectors that are &quot;close&quot; by L2 metric (Euclidean distance).</p>
+<p>There are multiple models that provide various trade-offs between performance and accuracy (expect a bigger model to perform better).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+<th align="left">Pairwise accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./person-reidentification-retail-0031/description/person-reidentification-retail-0031.html">person-reidentification-retail-0031</a></td>
+<td align="left">0.028</td>
+<td align="left">0.280</td>
+<td align="left">92.11%</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./person-reidentification-retail-0079/description/person-reidentification-retail-0079.html">person-reidentification-retail-0079</a></td>
+<td align="left">0.124</td>
+<td align="left">0.820</td>
+<td align="left">92.93%</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./person-reidentification-retail-0076/description/person-reidentification-retail-0076.html">person-reidentification-retail-0076</a></td>
+<td align="left">0.594</td>
+<td align="left">0.820</td>
+<td align="left">93.35%</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./face-reidentification-retail-0095/description/face-reidentification-retail-0095.html">face-reidentification-retail-0095</a></td>
+<td align="left">0.588</td>
+<td align="left">1.107</td>
+<td align="left">99.33%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="semantic-segmentation-models">Semantic Segmentation Models</h2>
+<p>Semantic segmentation is an extension of object detection problem. Instead of returning bounding boxes, semantic segmentation models return a &quot;painted&quot; version of the input image, where the &quot;color&quot; of each pixel represents a certain class. These networks are much bigger than respective object detection networks, but they provide a better (pixel-level) localization of objects and they can detect areas with complex shape (for example, free space on the road).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./road-segmentation-adas-0001/description/road-segmentation-adas-0001.html">road-segmentation-adas-0001</a></td>
+<td align="left">4.770</td>
+<td align="left">0.184</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./semantic-segmentation-adas-0001/description/semantic-segmentation-adas-0001.html">semantic-segmentation-adas-0001</a></td>
+<td align="left">58.572</td>
+<td align="left">6.686</td>
+</tr>
+</tbody>
+</table>
+<h2 id="instance-segmentation-models">Instance Segmentation Models</h2>
+<p>Instance segmentation is an extension of object detection and semantic segmentation problems. Instead of predicting a bounding box around each object instance instance segmentation model outputs pixel-wise masks for all instances.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./instance-segmentation-security-0050/description/instance-segmentation-security-0050.html">instance-segmentation-security-0050</a></td>
+<td align="left">46.602</td>
+<td align="left">30.448</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./instance-segmentation-security-0083/description/instance-segmentation-security-0083.html">instance-segmentation-security-0083</a></td>
+<td align="left">365.626</td>
+<td align="left">143.444</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./instance-segmentation-security-0010/description/instance-segmentation-security-0010.html">instance-segmentation-security-0010</a></td>
+<td align="left">899.568</td>
+<td align="left">174.568</td>
+</tr>
+</tbody>
+</table>
+<h2 id="human-pose-estimation-models">Human Pose Estimation Models</h2>
+<p>Human pose estimation task is to predict a pose: body skeleton, which consists of keypoints and connections between them, for every person in an input image or video. Keypoints are body joints, i.e. ears, eyes, nose, shoulders, knees, etc. There are two major groups of such metods: top-down and bottom-up. The first detects persons in a given frame, crops or rescales detections, then runs pose estimation network for every detection. These methods are very accurate. The second finds all keypoints in a given frame, then groups them by person instances, thus faster than previous, because network runs once.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./human-pose-estimation-0001/description/human-pose-estimation-0001.html">human-pose-estimation-0001</a></td>
+<td align="left">15.435</td>
+<td align="left">4.099</td>
+</tr>
+</tbody>
+</table>
+<h2 id="image-processing">Image Processing</h2>
+<p>Deep Learning models find their application in various image processing tasks to increase the quality of the output.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./single-image-super-resolution-1032/description/single-image-super-resolution-1032.html">single-image-super-resolution-1032</a></td>
+<td align="left">11.654</td>
+<td align="left">0.030</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./single-image-super-resolution-1033/description/single-image-super-resolution-1033.html">single-image-super-resolution-1033</a></td>
+<td align="left">16.062</td>
+<td align="left">0.030</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./text-image-super-resolution-0001/description/text-image-super-resolution-0001.html">text-image-super-resolution-0001</a></td>
+<td align="left">1.379</td>
+<td align="left">0.003</td>
+</tr>
+</tbody>
+</table>
+<h2 id="text-detection">Text Detection</h2>
+<p>Deep Learning models for text detection in various applications.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./text-detection-0003/description/text-detection-0003.html">text-detection-0003</a></td>
+<td align="left">51.256</td>
+<td align="left">6.747</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./text-detection-0004/description/text-detection-0004.html">text-detection-0004</a></td>
+<td align="left">23.305</td>
+<td align="left">4.328</td>
+</tr>
+</tbody>
+</table>
+<h2 id="text-recognition">Text Recognition</h2>
+<p>Deep Learning models for text recognition in various applications.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./text-recognition-0012/description/text-recognition-0012.html">text-recognition-0012</a></td>
+<td align="left">1.485</td>
+<td align="left">5.568</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./handwritten-score-recognition-0003/description/handwritten-score-recognition-0003.html">handwritten-score-recognition-0003</a></td>
+<td align="left">0.792</td>
+<td align="left">5.555</td>
+</tr>
+</tbody>
+</table>
+<h2 id="action-recognition-models">Action Recognition Models</h2>
+<p>Action Recognition models predict action that is being performed on a short video clip (tensor formed by stacking sampled frames from input video). Some models (for example <code>driver-action-recognition-adas-0002</code> may use precomputed high-level spatial or spatio-temporal) features (embeddings) from individual clip fragments and then aggregate them in a temporal model to predict a vector with classification scores. Models that compute embeddings are called <em>encoder</em>, while models that predict an actual labels are called <em>decoder</em>.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./driver-action-recognition-adas-0002-encoder/description/driver-action-recognition-adas-0002-encoder.html">driver-action-recognition-adas-0002-encoder</a></td>
+<td align="left">0.676</td>
+<td align="left">2.863</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./driver-action-recognition-adas-0002-decoder/description/driver-action-recognition-adas-0002-decoder.html">driver-action-recognition-adas-0002-decoder</a></td>
+<td align="left">0.147</td>
+<td align="left">4.205</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./action-recognition-0001-encoder/description/action-recognition-0001-encoder.html">action-recognition-0001-encoder</a></td>
+<td align="left">7.340</td>
+<td align="left">21.276</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./action-recognition-0001-decoder/description/action-recognition-0001-decoder.html">action-recognition-0001-decoder</a></td>
+<td align="left">0.147</td>
+<td align="left">4.405</td>
+</tr>
+</tbody>
+</table>
+<h2 id="image-retrieval">Image Retrieval</h2>
+<p>Deep Learning models for image retrieval (ranking 'gallery' images according to their similarity to some 'probe' image).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./image-retrieval-0001/description/image-retrieval-0001.html">image-retrieval-0001</a></td>
+<td align="left">0.613</td>
+<td align="left">2.535</td>
+</tr>
+</tbody>
+</table>
+<h2 id="compressed-models">Compressed models</h2>
+<p>Deep Learning compressed models</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Model Name</th>
+<th align="left">Complexity (GFLOPs)</th>
+<th align="left">Size (Mp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="./resnet50-binary-0001/description/resnet50-binary-0001.html">resnet50-binary-0001</a></td>
+<td align="left">1.002</td>
+<td align="left">7.446</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./resnet-50-int8-tf-0001/description/resnet-50-int8-tf-0001.html">resnet-50-int8-tf-0001</a></td>
+<td align="left">6.996</td>
+<td align="left">25.530</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./resnet-50-int8-sparse-v1-tf-0001/description/resnet-50-int8-sparse-v1-tf-0001.html">resnet-50-int8-sparse-v1-tf-0001</a></td>
+<td align="left">6.996</td>
+<td align="left">25.530</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./resnet-50-int8-sparse-v2-tf-0001/description/resnet-50-int8-sparse-v2-tf-0001.html">resnet-50-int8-sparse-v2-tf-0001</a></td>
+<td align="left">6.996</td>
+<td align="left">25.530</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./inceptionv3-int8-tf-0001/description/inceptionv3-int8-tf-0001.html">inceptionv3-int8-tf-0001</a></td>
+<td align="left">11.469</td>
+<td align="left">23.819</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./inceptionv3-int8-sparse-v1-tf-0001/description/inceptionv3-int8-sparse-v1-tf-0001.html">inceptionv3-int8-sparse-v1-tf-0001</a></td>
+<td align="left">11.469</td>
+<td align="left">23.819</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./inceptionv3-int8-sparse-v2-tf-0001/description/inceptionv3-int8-sparse-v2-tf-0001.html">inceptionv3-int8-sparse-v2-tf-0001</a></td>
+<td align="left">11.469</td>
+<td align="left">23.819</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./mobilenetv2-int8-tf-0001/description/mobilenetv2-int8-tf-0001.html">mobilenetv2-int8-tf-0001</a></td>
+<td align="left">0.615</td>
+<td align="left">3.489</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="./mobilenetv2-int8-sparse-v1-tf-0001/description/mobilenetv2-int8-sparse-v1-tf-0001.html">mobilenetv2-int8-sparse-v1-tf-0001</a></td>
+<td align="left">0.615</td>
+<td align="left">3.489</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="./mobilenetv2-int8-sparse-v2-tf-0001/description/mobilenetv2-int8-sparse-v2-tf-0001.html">mobilenetv2-int8-sparse-v2-tf-0001</a></td>
+<td align="left">0.615</td>
+<td align="left">3.489</td>
+</tr>
+</tbody>
+</table>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

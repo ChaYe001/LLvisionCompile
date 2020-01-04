@@ -1,0 +1,40 @@
+<schemalist>
+  <schema id="com.canonical.unity.webapps" path="/com/canonical/unity/webapps/" gettext-domain="unity-webapps">
+    <key name="integration-allowed" type="b">
+      <summary>Specifies if prompting for unity integration is enabled or not</summary>
+      <default>true</default>
+      <description>
+	This key specifies if any new websites that hasn't been integrated yet and is a target for a unity integration can prompt the user for permission to integrate. When disabled, previously integrated websites will still function as expected, while no new website will prompt for integration.
+      </description>
+    </key>
+    <key name="preauthorized-domains" type="as">
+      <summary>A list of domains which are preauthorized to access Unity Integration.</summary>
+      <default>["amazon.ca", "amazon.cn", "amazon.com", "amazon.co.uk", "amazon.de", "amazon.es", "amazon.fr", "amazon.it", "www.amazon.ca", "www.amazon.cn", "www.amazon.com", "www.amazon.co.uk", "www.amazon.de", "www.amazon.es", "www.amazon.fr", "www.amazon.it", "one.ubuntu.com"]</default>
+      <description>
+	This key indicates which web applications (by domain) are preauthorized to access Unity integration. That is to say that passing the permissions check depends on being in the union of this key, or the key allowed-domains. This is a seperate key from allowed-domains, and kept as such so that the default value may be changed during distribution upgrades.
+      </description>
+    </key>
+    <key name="allowed-domains" type="as">
+      <summary>A list of domains which are allowed to access unity integration</summary>
+      <default>[]</default>
+      <description>
+	This key indicates which web applications (by domain) are allowed to access Unity integration features, such as Sound Menu, Messaging Indicator, etc...
+      </description>
+    </key>
+    <key name="dontask-domains" type="as">
+      <summary>A list of domains which we will not ask to enable unity integration for</summary>
+      <default>[]</default>
+      <description>
+	This key indicates web applications which the user has blacklisted from accessing Unity integration features.
+      </description>
+    </key>
+    <key name="index-update-time" type="i">
+      <summary>Frequency (in seconds per job) with which unity-webapps-service will spawn the ubuntu-webapps-update-index job.</summary>
+      <default>43200</default>
+      <description>
+	The ubuntu-webapps-update-index job is responsible for maintaining an index of available applications by URL glob patterns. Currently this index is updated from apt-cache metadata. This key controls the rate at which unity-webapps-service will spawn the index updater.
+      </description>
+    </key>
+  </schema>
+    
+</schemalist>

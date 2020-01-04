@@ -1,0 +1,106 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="head-pose-estimation-adas-0001">head-pose-estimation-adas-0001</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>Head pose estimation network based on simple, handmade CNN architecture. Angle regression layers are convolutions + ReLU + batch norm + fully connected with one output.</p>
+<h2 id="validation-dataset">Validation Dataset</h2>
+<p><a href="https://data.vision.ee.ethz.ch/cvl/gfanelli/head_pose/head_forest.html">Biwi Kinect Head Pose Database</a></p>
+<h2 id="example">Example</h2>
+<div class="figure">
+<img src="./head-pose-estimation-adas-0001.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Supported ranges</td>
+<td align="left">YAW [-90,90], PITCH [-70,70], ROLL [-70,70]</td>
+</tr>
+<tr class="even">
+<td align="left">GFlops</td>
+<td align="left">0.105</td>
+</tr>
+<tr class="odd">
+<td align="left">MParams</td>
+<td align="left">1.911</td>
+</tr>
+<tr class="even">
+<td align="left">Source framework</td>
+<td align="left">Caffe*</td>
+</tr>
+</tbody>
+</table>
+<h2 id="accuracy">Accuracy</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Angle</th>
+<th align="left"><a href="https://en.wikipedia.org/wiki/Mean_absolute_error">Mean</a> ± <a href="https://en.wikipedia.org/wiki/Standard_deviation">standard deviation</a> of absolute error</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">yaw</td>
+<td align="left">5.4 ± 4.4</td>
+</tr>
+<tr class="even">
+<td align="left">pitch</td>
+<td align="left">5.5 ± 5.3</td>
+</tr>
+<tr class="odd">
+<td align="left">roll</td>
+<td align="left">4.6 ± 5.6</td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: &quot;data&quot; , shape: [1x3x60x60] - An input image in [1xCxHxW] format. Expected color order is BGR.</li>
+</ol>
+<h2 id="outputs">Outputs</h2>
+<p>Output layer names in Inference Engine format:</p>
+<ol style="list-style-type: decimal">
+<li>name: &quot;angle_y_fc&quot;, shape: [1, 1] - Estimated yaw (in degrees).</li>
+<li>name: &quot;angle_p_fc&quot;, shape: [1, 1] - Estimated pitch (in degrees).</li>
+<li>name: &quot;angle_r_fc&quot;, shape: [1, 1] - Estimated roll (in degrees).</li>
+</ol>
+<p>Output layer names in Caffe* format:</p>
+<ol style="list-style-type: decimal">
+<li>name: &quot;fc_y&quot;, shape: [1, 1] - Estimated yaw (in degrees).</li>
+<li>name: &quot;fc_p&quot;, shape: [1, 1] - Estimated pitch (in degrees).</li>
+<li>name: &quot;fc_r&quot;, shape: [1, 1] - Estimated roll (in degrees).</li>
+</ol>
+<p>Each output contains one float value that represents value in Tait-Bryan angles (yaw, pitсh or roll).</p>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

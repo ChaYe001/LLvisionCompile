@@ -1,0 +1,226 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="vehicle-attributes-recognition-barrier-0039">vehicle-attributes-recognition-barrier-0039</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This model presents a vehicle attributes classification algorithm for a traffic analysis scenario.</p>
+<h2 id="example">Example</h2>
+<div class="figure">
+<img src="./vehicle-attributes-recognition-barrier-0039-1.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Car pose</td>
+<td align="left">Front facing cars</td>
+</tr>
+<tr class="even">
+<td align="left">Occlusion coverage</td>
+<td align="left">&lt;50%</td>
+</tr>
+<tr class="odd">
+<td align="left">Min object width</td>
+<td align="left">72 pixels</td>
+</tr>
+<tr class="even">
+<td align="left">Supported colors</td>
+<td align="left">White, gray, yellow, red, green, blue, black</td>
+</tr>
+<tr class="odd">
+<td align="left">Supported types</td>
+<td align="left">Car, bus, truck, van</td>
+</tr>
+<tr class="even">
+<td align="left">GFlops</td>
+<td align="left">0.126</td>
+</tr>
+<tr class="odd">
+<td align="left">MParams</td>
+<td align="left">0.626</td>
+</tr>
+<tr class="even">
+<td align="left">Source framework</td>
+<td align="left">Caffe*</td>
+</tr>
+</tbody>
+</table>
+<h2 id="accuracy---confusion-matrix">Accuracy - Confusion Matrix</h2>
+<h3 id="color-accuracy">Color accuracy, %</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="center">blue</th>
+<th align="center">gray</th>
+<th align="center">yellow</th>
+<th align="center">green</th>
+<th align="center">black</th>
+<th align="center">white</th>
+<th align="center">red</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>blue</strong></td>
+<td align="center"><strong>79.53</strong></td>
+<td align="center">4.32</td>
+<td align="center">0.62</td>
+<td align="center">6.41</td>
+<td align="center">6.54</td>
+<td align="center">2.47</td>
+<td align="center">0.12</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>gray</strong></td>
+<td align="center">2.53</td>
+<td align="center"><strong>78.01</strong></td>
+<td align="center">0</td>
+<td align="center">1.36</td>
+<td align="center">1.18</td>
+<td align="center">16.74</td>
+<td align="center">0.18</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>yellow</strong></td>
+<td align="center">0</td>
+<td align="center">13.9</td>
+<td align="center"><strong>54.01</strong></td>
+<td align="center">11.21</td>
+<td align="center">0</td>
+<td align="center">10.7</td>
+<td align="center">10.16</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>green</strong></td>
+<td align="center">3.79</td>
+<td align="center">1.52</td>
+<td align="center">1.52</td>
+<td align="center"><strong>83.33</strong></td>
+<td align="center">6.06</td>
+<td align="center">3.03</td>
+<td align="center">0.76</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>black</strong></td>
+<td align="center">0.85</td>
+<td align="center">1.92</td>
+<td align="center">0</td>
+<td align="center">0.32</td>
+<td align="center"><strong>96.1</strong></td>
+<td align="center">0.74</td>
+<td align="center">0.07</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>white</strong></td>
+<td align="center">1.45</td>
+<td align="center">10.86</td>
+<td align="center">0.17</td>
+<td align="center">2.53</td>
+<td align="center">0.08</td>
+<td align="center"><strong>84.83</strong></td>
+<td align="center">0.08</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>red</strong></td>
+<td align="center">0.89</td>
+<td align="center">0.3</td>
+<td align="center">2.18</td>
+<td align="center">2.18</td>
+<td align="center">0.3</td>
+<td align="center">1.88</td>
+<td align="center"><strong>92.27</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Color average accuracy: 81.15 %</strong></p>
+<h3 id="type-accuracy">Type accuracy, %</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="center">car</th>
+<th align="center">van</th>
+<th align="center">truck</th>
+<th align="center">bus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>car</strong></td>
+<td align="center"><strong>98.26</strong></td>
+<td align="center">0.56</td>
+<td align="center">0.98</td>
+<td align="center">0.2</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>van</strong></td>
+<td align="center">3.72</td>
+<td align="center"><strong>89.16</strong></td>
+<td align="center">6.15</td>
+<td align="center">0.97</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>track</strong></td>
+<td align="center">1.71</td>
+<td align="center">2.46</td>
+<td align="center"><strong>94.27</strong></td>
+<td align="center">1.56</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>bus</strong></td>
+<td align="center">7.94</td>
+<td align="center">3.8</td>
+<td align="center">19.69</td>
+<td align="center"><strong>68.57</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Type average accuracy: 87.56 %</strong></p>
+<h2 id="performance-fps">Performance (FPS)</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li><p>name: &quot;input&quot; , shape: [1x3x72x72] - An input image in following format [1xCxHxW], where:</p>
+<ul>
+<li>C - number of channels</li>
+<li>H - image height</li>
+<li>W - image width.</li>
+</ul></li>
+</ol>
+<p>Expected color order - BGR.</p>
+<h2 id="outputs">Outputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: &quot;color&quot;, shape: [1, 7, 1, 1] - Softmax output across seven color classes [white, gray, yellow, red, green, blue, black]</li>
+<li>name: &quot;type&quot;, shape: [1, 4, 1, 1] - Softmax output across four type classes [car, bus, truck, van]</li>
+</ol>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

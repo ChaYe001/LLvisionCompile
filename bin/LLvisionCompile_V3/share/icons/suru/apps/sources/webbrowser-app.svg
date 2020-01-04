@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3336" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns="http://www.w3.org/2000/svg" height="512" viewBox="0 0 512 512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs3338">
+  <linearGradient id="linearGradient4195">
+   <stop id="stop4197" style="stop-color:#325fd1" offset="0"/>
+   <stop id="stop4199" style="stop-color:#6e98ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4201" y2="494" xlink:href="#linearGradient4195" gradientUnits="userSpaceOnUse" x2="512" y1="18"/>
+  <clipPath id="clipPath4244" clipPathUnits="userSpaceOnUse">
+   <path id="path4246" style="color:#000000;enable-background:accumulate;fill:url(#linearGradient4201)" d="m0 0v183.9 144.2 183.9h512v-183.9-144.2-183.9h-512z"/>
+  </clipPath>
+  <clipPath id="clipPath4230" clipPathUnits="userSpaceOnUse">
+   <path id="path4232" style="color:#000000;enable-background:accumulate;fill:#e93549" d="m390.83 121-170.79 98.88-98.87 170.79 170.79-98.88 98.87-170.79z"/>
+  </clipPath>
+  <filter id="filter4259" style="color-interpolation-filters:sRGB" height="1.072" width="1.072" y="-0.036" x="-0.036">
+   <feGaussianBlur id="feGaussianBlur4261" stdDeviation="2.2063719"/>
+  </filter>
+  <filter id="filter4234" style="color-interpolation-filters:sRGB" height="1.024" width="1.024" y="-.012" x="-.012">
+   <feGaussianBlur id="feGaussianBlur4236" stdDeviation="0.88"/>
+  </filter>
+  <linearGradient id="linearGradient4251" y2="170" gradientUnits="userSpaceOnUse" x2="264" y1="344" x1="264">
+   <stop id="stop4247" style="stop-opacity:0" offset="0"/>
+   <stop id="stop4253" offset=".51494"/>
+   <stop id="stop4249" style="stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <filter id="filter4283" style="color-interpolation-filters:sRGB" height="1.192" width="1.192" y="-0.096" x="-0.096">
+   <feGaussianBlur id="feGaussianBlur4285" stdDeviation="7.04"/>
+  </filter>
+ </defs>
+ <metadata id="metadata3341">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer3">
+  <path id="rect4158" style="color:#000000;enable-background:accumulate;fill:url(#linearGradient4201)" d="m0 0v183.9 144.2 183.9h512v-183.9-144.2-183.9h-512z"/>
+  <g id="g4233" clip-path="url(#clipPath4244)">
+   <g id="g4241" style="opacity:.6;stroke-width:.63793;fill:#a5befb" transform="matrix(1.5676 0 0 1.5676 -1030.2 795.05)">
+    <path id="path4243" d="m728-336h32l8 8h8l24 24v16l-24 24v16l-32 32v8l-8-8v-32l8-8v-24l-16-16z" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb"/>
+    <path id="path4245" d="m720-328-24-24h-16l-32-32v-24l-24-24v-24-16l16-16 16 16h32l16 16h8v-16h24l16 16v8h-16l-16 16 24 24v-24h24l16 16-40 40h-8l-16 16z" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb"/>
+    <path id="path4247" d="m872-376h-24l-16 16v24l16 16h16.015l7.9853 8v8l8 8v32l16 16 32-32v-32l24-24h-8l-24-24v-8h-40z" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb"/>
+    <path id="path4249" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb" d="m1e3 -440-8 8h-16l-16 16-8-8h-32l-16 16v8h8 8.0625l7.9375-8v7.9687 8.0313h-24l-8 8h-8v8l-8 8v16h16l8-8h24l8 8h16l-8-8 8-8h8l8 8h-8l-8 8 8 8v16l16 16h16l8.0605-8.0606-7.1-7.94h23v-112z" transform="translate(-32,-32)"/>
+    <path id="path4251" d="m848-424 7.8876-7.8876l8.11-8.11v16z" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb"/>
+    <path id="path4253" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb" d="m936-272v-16l8-8v24z"/>
+    <path id="path4255" d="m800-440v-8l40-40-16-16h-48l-16 16 16 16v16l16 16z" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb"/>
+    <path id="path4257" d="m736-480 16-16h-48l16 16z" style="opacity:1;color:#000000;enable-background:accumulate;fill:#a5befb"/>
+   </g>
+  </g>
+  <path id="path4269" style="opacity:.1;color:#000000;enable-background:accumulate;fill:#fff" d="m0 256v72.1 183.9h512v-183.9-72.1h-512z"/>
+  <rect id="rect4277" style="opacity:.1;color:#000000;enable-background:accumulate;fill:#fff" height="510" width="179.89" y=".0000012" x="166.05"/>
+  <path id="path4238" style="opacity:.4;color:#000000;filter:url(#filter4283);enable-background:accumulate;fill:url(#linearGradient4251)" d="m344 170-73.156 42.354a48 48 0 0 0 -48.785 11.705 48 48 0 0 0 -11.672 48.729l-42.38 73.22 73.16-42.35a48 48 0 0 0 48.785 -11.705 48 48 0 0 0 11.672 -48.729l42.38-73.22z" transform="matrix(1.5322 0 0 1.5322 -136.24 -136.24)"/>
+  <path id="path4227-4" style="opacity:.1;color:#000000;filter:url(#filter4234);enable-background:accumulate" d="m344 170-73.156 42.354a48 48 0 0 0 -48.785 11.705 48 48 0 0 0 -11.672 48.729l-42.38 73.22 73.16-42.35a48 48 0 0 0 48.785 -11.705 48 48 0 0 0 11.672 -48.729l42.38-73.22z" transform="matrix(1.5322 0 0 1.5322 -136.24 -136.24)"/>
+  <path id="path4223" style="color:#000000;enable-background:accumulate;fill:#e93549" d="m220.04 220.04 170.79-98.87-98.87 170.79z"/>
+  <path id="path4225" style="color:#000000;enable-background:accumulate;fill:#dfdfdf" d="m220.04 220.04-98.87 170.79 170.79-98.87z"/>
+  <path id="path4241" style="color:#000000;enable-background:accumulate;fill:#ef6b6b" d="m390.83 121.17-170.79 98.879 1.2676 1.2676 167.78-97.139 1.7422-3.0078z"/>
+  <path id="path4246-6" style="color:#000000;enable-background:accumulate;fill:#ececec" d="m220.04 220.05-98.879 170.79 1.7422-1.0078 97.137-167.78 70.643 70.643 1.2676-0.73242-71.91-71.91z"/>
+  <g id="g4227" style="opacity:.2;filter:url(#filter4259);enable-background:new" clip-path="url(#clipPath4230)" transform="translate(-.0000052555 .16631)">
+   <circle id="circle4219" style="opacity:1;color:#000000;enable-background:accumulate" cx="361.92" transform="rotate(45)" cy="-.11759" r="73.546"/>
+  </g>
+  <circle id="path4221" style="color:#000000;enable-background:accumulate;fill:#f2f2f2" cx="362.04" transform="rotate(45)" cy="2.8422e-14" r="73.546"/>
+  <path id="circle4236" style="color:#000000;enable-background:accumulate;fill:#fff" d="m257.07 182.46a73.546 73.546 0 0 0 -53.078 21.533 73.546 73.546 0 0 0 -21.488 52.225 73.546 73.546 0 0 1 21.488 -50.225 73.546 73.546 0 0 1 104.01 0 73.546 73.546 0 0 1 21.488 51.787 73.546 73.546 0 0 0 -21.488 -53.787 73.546 73.546 0 0 0 -50.93 -21.533z"/>
+ </g>
+ <g id="layer4">
+  <path id="path4505-6" d="m219.31 124-35.188 71.656v59.25c-4.9399 5.788-10.339 11.62-15.969 17.25-18.503 18.503-39.248 34.687-53.125 39.312l-23.374-23.35-71.656 35.19v170.69h256v-317.56c-15.42-33.45-32.37-45.92-56.69-52.44zm-97.56 229c0.007-0.005 0.0239 0.005 0.0312 0-2.6107 1.6304-5.251 3.2267-7.9062 4.8125 2.6559-1.5856 5.2637-3.1824 7.875-4.8125zm-24.094 14.062c0.008-0.004 0.0234 0.004 0.0312 0-2.7418 1.4991-5.5286 2.9806-8.3125 4.4375 2.7843-1.4568 5.5391-2.9386 8.2813-4.4375z" style="opacity:.05;fill-opacity:0;color:#000000;enable-background:accumulate"/>
+ </g>
+</svg>

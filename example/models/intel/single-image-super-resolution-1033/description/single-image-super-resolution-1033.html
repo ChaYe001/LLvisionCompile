@@ -1,0 +1,97 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="single-image-super-resolution-1033">single-image-super-resolution-1033</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p><a href="https://arxiv.org/pdf/1807.06779.pdf">An Attention-Based Approach for Single Image Super Resolution</a> but with reduced number of channels and changes in network achitecture. It enhances the resolution of the input image by a factor of 3.</p>
+<h2 id="example">Example</h2>
+<p>Low resolution:</p>
+<div class="figure">
+<img src="./street_640x360.png" />
+
+</div>
+<p>Bicubic interpolation:</p>
+<div class="figure">
+<img src="./x3c_street_640x360.png" />
+
+</div>
+<p>Super resolution:</p>
+<div class="figure">
+<img src="./x3_street_640x360.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">PSNR</td>
+<td align="left">30.97 dB</td>
+</tr>
+<tr class="even">
+<td align="left">GFlops</td>
+<td align="left">16.062</td>
+</tr>
+<tr class="odd">
+<td align="left">MParams</td>
+<td align="left">0.030</td>
+</tr>
+<tr class="even">
+<td align="left">Source framework</td>
+<td align="left">Pytorch*</td>
+</tr>
+</tbody>
+</table>
+<p>For reference, PSNR for bicubic upsampling on test dataset is 28.48 dB.</p>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: &quot;0&quot; , shape: [1x3x360x640] - An input image in the format [BxCxHxW], where:
+<ul>
+<li>B - batch size</li>
+<li>C - number of channels</li>
+<li>H - image height</li>
+<li>W - image width.</li>
+</ul></li>
+<li>name: &quot;1&quot; , shape: [1x3x1080x1920] - Bicubic interpolation of the input image in the format [BxCxHxW], where:
+<ul>
+<li>B - batch size</li>
+<li>C - number of channels</li>
+<li>H - image height</li>
+<li>W - image width.</li>
+</ul></li>
+</ol>
+<p>Expected color order is BGR.</p>
+<h2 id="outputs">Outputs</h2>
+<ol style="list-style-type: decimal">
+<li>The net outputs one blobs with shapes [1, 3, 1080, 1920] that contains image after super resolution.</li>
+</ol>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

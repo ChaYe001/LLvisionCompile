@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="text-image-super-resolution-0001">text-image-super-resolution-0001</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>A tiny model to upscale scanned images with text. The model used the <code>ConvTranspose2d</code> layer instead of the <code>PixelShuffle</code> layer. As a result, the model can be launched on GPU and MYRIAD devices and support the <code>reshape</code> function.</p>
+<h2 id="example">Example</h2>
+<h3 id="low-resolution">Low Resolution</h3>
+<div class="figure">
+<img src="./img.png" />
+
+</div>
+<h3 id="bicubic-interpolation">Bicubic Interpolation</h3>
+<div class="figure">
+<img src="./img_x3c.png" />
+
+</div>
+<h3 id="super-resolution">Super Resolution</h3>
+<div class="figure">
+<img src="./img_x3.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">PSNR</td>
+<td align="left">21.64 dB</td>
+</tr>
+<tr class="even">
+<td align="left">GFlops</td>
+<td align="left">1.379</td>
+</tr>
+<tr class="odd">
+<td align="left">MParams</td>
+<td align="left">0.003</td>
+</tr>
+<tr class="even">
+<td align="left">Source framework</td>
+<td align="left">PyTorch*</td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: <code>0</code>, shape: [1x3x768x1280] - An input image in the format [BxCxHxW], where:
+<ul>
+<li>B - batch size</li>
+<li>C - number of channels</li>
+<li>H - image height</li>
+<li>W - image width</li>
+</ul></li>
+</ol>
+<h2 id="outputs">Outputs</h2>
+<p>One blob with shapes [1, 1, 1080, 1920]. The blob contains an image after super resolution.</p>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

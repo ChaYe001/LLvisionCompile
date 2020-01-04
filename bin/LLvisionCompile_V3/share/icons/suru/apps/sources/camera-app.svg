@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3336" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns="http://www.w3.org/2000/svg" height="512" viewBox="0 0 512 512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs3338">
+  <radialGradient id="radialGradient4404" gradientUnits="userSpaceOnUse" cy="-256.2" cx="-256" gradientTransform="matrix(0 -1.4979 -1.4979 0 -127.57 -127.47)" r="96">
+   <stop id="stop4402" style="stop-opacity:0" offset="0"/>
+   <stop id="stop4408" style="stop-opacity:0" offset=".89867"/>
+   <stop id="stop4410" style="stop-opacity:.26166" offset=".94933"/>
+   <stop id="stop4400" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient4301" y2="-256" gradientUnits="userSpaceOnUse" x2="-82" y1="-256" x1="-434">
+   <stop id="stop4365" style="stop-opacity:0" offset="0"/>
+   <stop id="stop4367" offset=".50477"/>
+   <stop id="stop4369" style="stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <filter id="filter4291" style="color-interpolation-filters:sRGB" height="1.192" width="1.192" y="-0.096" x="-0.096">
+   <feGaussianBlur id="feGaussianBlur4293" stdDeviation="14.079999"/>
+  </filter>
+  <filter id="filter4323" style="color-interpolation-filters:sRGB" height="1.024" width="1.024" y="-.012" x="-.012">
+   <feGaussianBlur id="feGaussianBlur4325" stdDeviation="1.7599998"/>
+  </filter>
+ </defs>
+ <metadata id="metadata3341">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer3">
+  <path id="rect4158" style="color:#000000;enable-background:accumulate;fill:#eeecea" d="m0 0v512h512v-512z"/>
+  <path id="path4269" style="opacity:.4;color:#000000;enable-background:accumulate;fill:#fff" d="m0 256v256h512v-256h-483.56z"/>
+  <circle id="path5121" r="12" style="color:#000000;enable-background:accumulate;fill:#df382c" cx="428" cy="84"/>
+ </g>
+ <g id="layer4">
+  <circle id="circle4305" style="opacity:.1;fill-opacity:.99608;color:#000000;filter:url(#filter4323);enable-background:accumulate" transform="matrix(0,-1,-1,0,0,0)" cy="-256" cx="-258" r="176"/>
+  <circle id="circle4345" style="opacity:.4;color:#000000;filter:url(#filter4291);enable-background:accumulate;fill:url(#linearGradient4301)" transform="matrix(0,-1,-1,0,0,2e-6)" cy="-256" cx="-258" r="176"/>
+  <circle id="path4389-5" style="color:#000000;enable-background:accumulate;fill:#fcfcfc" cx="-256" transform="matrix(0,-1,-1,0,0,0)" cy="-256" r="176"/>
+  <circle id="circle4371" style="color:#000000;enable-background:accumulate;fill:#b6e2f3" transform="matrix(0,-1,-1,0,0,0)" cy="-256.2" cx="-256" r="143.8"/>
+  <path id="circle4396" style="opacity:.05;color:#000000;enable-background:accumulate;fill:url(#radialGradient4404)" d="m256.2 112.2a143.8 143.8 0 0 0 -143.8 143.8 143.8 143.8 0 0 0 143.8 143.8 143.8 143.8 0 0 0 143.8 -143.8 143.8 143.8 0 0 0 -143.8 -143.8zm0 51.449a92.352 92.352 0 0 1 92.352 92.352 92.352 92.352 0 0 1 -92.352 92.352 92.352 92.352 0 0 1 -92.35 -92.35 92.352 92.352 0 0 1 92.35 -92.35z"/>
+  <circle id="circle4413" style="color:#000000;enable-background:accumulate;fill:#369ad4" transform="matrix(0,-1,-1,0,0,0)" cy="-256.2" cx="-256" r="110.8"/>
+  <circle id="circle4409" style="color:#000000;enable-background:accumulate;fill:#1c629d" transform="matrix(0,-1,-1,0,0,0)" cy="-256.2" cx="-256" r="71.8"/>
+  <circle id="circle4411" style="color:#000000;enable-background:accumulate;fill:#10395c" cx="-256" transform="matrix(0,-1,-1,0,0,0)" cy="-256.2" r="40"/>
+  <circle id="path4508" cx="299.39" cy="213.55" r="51.449" style="opacity:0.233;color:#000000;enable-background:accumulate;fill:#fff"/>
+ </g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3336" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="476" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs3338">
+  <linearGradient id="linearGradient3892" gradientUnits="userSpaceOnUse" x2="192" y1="476" x1="192">
+   <stop id="stop3888" style="stop-color:#bfbfbf" offset="0"/>
+   <stop id="stop3890" style="stop-color:#e8e8e8" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3940" y2="92" gradientUnits="userSpaceOnUse" x2="168" gradientTransform="translate(-4,30)" y1="324" x1="168">
+   <stop id="stop3936" style="stop-color:#b90101" offset="0"/>
+   <stop id="stop3938" style="stop-color:#a60101" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3948" y2="92" gradientUnits="userSpaceOnUse" x2="272" gradientTransform="translate(-4,30)" y1="236" x1="272">
+   <stop id="stop3944" style="stop-color:#df0101" offset="0"/>
+   <stop id="stop3946" style="stop-color:#eb0101" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3956" y2="92" gradientUnits="userSpaceOnUse" x2="272" gradientTransform="translate(-4,30)" y1="188" x1="272">
+   <stop id="stop3952" style="stop-color:#eaeaec" offset="0"/>
+   <stop id="stop3954" style="stop-color:#f7f7f9" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3964" y2="156" gradientUnits="userSpaceOnUse" x2="192" gradientTransform="translate(-4,30)" y1="324" x1="192">
+   <stop id="stop3960" style="stop-color:#ddd" offset="0"/>
+   <stop id="stop3962" style="stop-color:#e5e6e8" offset="1"/>
+  </linearGradient>
+  <filter id="filter3982">
+   <feGaussianBlur id="feGaussianBlur3984" stdDeviation="4.2"/>
+  </filter>
+  <clipPath id="clipPath4012" clipPathUnits="userSpaceOnUse">
+   <path id="path4014" style="color:#000000;fill:#f0f" d="m116 122c-0.53282 0-1.0698 0.0286-1.5938 0.0625 0.52-0.03 1.06-0.06 1.59-0.06zm280 0c0.53282 0 1.0698 0.0286 1.5938 0.0625-0.52-0.03-1.06-0.06-1.59-0.06zm-285.31 0.59375c-1.0221 0.22965-2.0326 0.52019-3 0.875 0.97068-0.35614 1.9742-0.64484 3-0.875zm290.62 0c1.0258 0.23016 2.0293 0.51886 3 0.875-0.9674-0.35481-1.9779-0.64535-3-0.875zm-302.03 6.16c-0.27026 0.26192-0.52358 0.53815-0.78125 0.8125 0.25204-0.26798 0.51717-0.55642 0.78125-0.8125zm313.44 0c0.26408 0.25608 0.52921 0.54452 0.78125 0.8125-0.25768-0.27435-0.51099-0.55058-0.78125-0.8125zm-318.97 8.25c-0.13971 0.34642-0.28242 0.67693-0.40625 1.0312 0.124-0.35 0.266-0.68 0.406-1.03zm-0.40625 1.0312c-0.12491 0.35741-0.23544 0.72874-0.34375 1.0938 0.10762-0.36287 0.21972-0.73841 0.34375-1.0938zm324.91-1.03c0.14 0.34738 0.28222 0.67591 0.40625 1.0312-0.13-0.35-0.27-0.68-0.41-1.03zm0.40625 1.0312c0.12403 0.35534 0.23613 0.73088 0.34375 1.0938-0.10831-0.36501-0.21884-0.73634-0.34375-1.0938zm-326.66 16.22v175.75c0 13.296 10.704 24 24 24h280c13.296 0 24-10.704 24-24v-175.75l-164 115.75-164-115.75z"/>
+  </clipPath>
+  <filter id="filter4016">
+   <feGaussianBlur id="feGaussianBlur4018" stdDeviation="2.58"/>
+  </filter>
+ </defs>
+ <metadata id="metadata3341">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer2">
+  <rect id="rect3139" style="color:#000000;fill:url(#linearGradient3892)" height="476" width="512" y="0" x="0"/>
+ </g>
+ <g id="layer3">
+  <rect id="rect3966" style="opacity:.4;color:#000000;filter:url(#filter3982)" ry="24" height="232" width="328" y="124" x="92"/>
+  <rect id="rect3910" style="color:#000000;fill:url(#linearGradient3964)" ry="24" height="232" width="328" y="122" x="92"/>
+  <path id="rect3912" style="color:#000000;fill:url(#linearGradient3940)" d="m116 122c-13.296 0-24 10.704-24 24v184c0 13.296 10.704 24 24 24h12v-232h-12zm268 0v232h12c13.296 0 24-10.704 24-24v-184c0-13.296-10.704-24-24-24h-12z"/>
+  <path id="path3916" style="fill:url(#linearGradient3948)" d="m114.41 122.06c-12.56 0.81-22.41 11.18-22.41 23.94v8.25l164 115.75 164-115.75v-8.25c0-12.763-9.855-23.126-22.406-23.938l-141.59 99.94-141.59-99.94z"/>
+  <path id="path3921" style="fill:#aaabaf" d="m256 270 128 84v-174z"/>
+  <path id="path4004" style="opacity:.3;filter:url(#filter4016);stroke:#000;stroke-width:2;fill:none" d="m116 82c-0.53282 0-1.0698 0.0286-1.5938 0.0625-12.56 0.812-22.41 11.175-22.41 23.938v48.25l164 115.75 164-115.75v-48.25c0-12.763-9.85-23.126-22.41-23.938-0.52-0.033-1.06-0.062-1.59-0.062z" clip-path="url(#clipPath4012)"/>
+  <path id="path3918" style="fill:url(#linearGradient3956)" d="m116 122c-0.53282 0-1.0698 0.0286-1.5938 0.0625l141.59 99.94 141.59-99.94c-0.52-0.03-1.06-0.06-1.59-0.06h-280z"/>
+  <path id="path4020" style="opacity:.15;fill:#fff" d="m92 152.25v2l164 115.75 164-115.75v-2l-164 115.75-164-115.75z"/>
+  <path id="path4029" style="opacity:.15;fill:#fff" d="m92 153.25v1l164 115.75 164-115.75v-1l-164 115.75-164-115.75z"/>
+ </g>
+ <g id="layer1" style="display:none" transform="translate(0 -576.36)">
+  <g id="layer1-3" style="display:inline" transform="matrix(3.5556 0 0 3.5522 0 -2685.9)">
+   <g id="layer1-2" transform="translate(0 10)">
+    <path id="path3774" d="m46.703 908.36h50.595c40.862 0 46.702 5.84 46.702 46.7v40.595c0 40.865-5.8378 46.702-46.703 46.702h-50.595c-40.864 0-46.702-5.9-46.702-46.74v-40.6c0-40.86 5.8378-46.7 46.703-46.7z" style="display:inline"/>
+   </g>
+  </g>
+ </g>
+</svg>

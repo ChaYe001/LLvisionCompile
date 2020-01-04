@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1030.4)">
+  <rect id="rect3009" style="color:#000000;fill:#fff" height=".99998" width="18" y="1049.4" x="2"/>
+  <path id="path3009" style="color:#000000;fill:#fff" d="m11 1032.4-9 6h18zm0 3c0.55228 0 1 0.4477 1 1s-0.44772 1-1 1-1-0.4477-1-1 0.44772-1 1-1z"/>
+  <rect id="rect3011" style="color:#000000;fill:#fff" height="1" width="4" y="1039.4" x="4"/>
+  <rect id="rect3013" style="color:#000000;fill:#fff" height="1" width="4" y="1039.4" x="9"/>
+  <rect id="rect3015" style="color:#000000;fill:#fff" height="1" width="4" y="1039.4" x="14"/>
+  <rect id="rect3017" style="color:#000000;fill:#fff" height="7" width="2" y="1039.4" x="5"/>
+  <rect id="rect3019" style="color:#000000;fill:#fff" height="7" width="2" y="1039.4" x="10"/>
+  <rect id="rect3021" style="color:#000000;fill:#fff" height="7" width="2" y="1039.4" x="15"/>
+  <rect id="rect3026" style="color:#000000;fill:#fff" height="1" width="16" y="1048.4" x="3"/>
+  <rect id="rect3028" style="color:#000000;fill:#fff" height="1" width="14" y="1047.4" x="4"/>
+ </g>
+</svg>

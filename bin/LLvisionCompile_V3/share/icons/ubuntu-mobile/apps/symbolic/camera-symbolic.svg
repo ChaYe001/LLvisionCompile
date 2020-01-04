@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3140" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="90" width="90" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3145">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -962.36)">
+  <rect id="rect4198" style="color:#000000;fill:none" height="90" width="89.689" y="962.36" x="0"/>
+  <g id="g4978" transform="translate(-60 548)">
+   <path id="path3777" style="fill:#808080" d="m30 12c-27 0-30 0-30 18v30c0 18 3 18 30 18h30c27 0 30 0 30-18v-30c0-18-3-18-30-18zm-16.688 6c0.50586-0.0078 1.0625 0 1.6875 0h6c5 0 6 0 6 4v4c0 4-1 4-6 4h-6c-5 0-6 0-6-4v-4c0-3.5 0.77148-3.9453 4.3125-4zm43.688 0c14.912 0 27 12.088 27 27s-12.088 27-27 27-27-12.088-27-27 12.088-27 27-27zm0 6c-11.598 0-21 9.402-21 21s9.402 21 21 21 21-9.402 21-21-9.402-21-21-21zm0 6c8.2843 0 15 6.7157 15 15s-6.7157 15-15 15-15-6.7157-15-15 6.7157-15 15-15zm-4.5 6c-2.485 0-4.5 1.926-4.5 4.438 0 2.511 2.015 4.562 4.5 4.562s4.5-2.051 4.5-4.562c0-2.512-2.015-4.438-4.5-4.438z" transform="translate(60 414.36)"/>
+   <path id="path3779" style="fill:#808080" d="m69 426.36v3h18v-3c0-3-1-3-5-3h-8c-4 0.00002-5 0.00002-5 3z"/>
+   <rect id="rect3034" style="color:#000000;fill:none" transform="translate(60 414.36)" height="90" width="90" y=".000017383" x="0"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,137 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="person-attributes-recognition-crossroad-0230">person-attributes-recognition-crossroad-0230</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This model presents a person attributes classification algorithm analysis scenario. It produces probability of person attributions existing on the sample and a position of two point on sample, whiches can be used for color prob (like, color picker in graphical editors)</p>
+<h2 id="examples">Examples</h2>
+<p><img src="./person-attributes-recognition-crossroad-230-1.png" /> <img src="./person-attributes-recognition-crossroad-230-2.png" /> <img src="./person-attributes-recognition-crossroad-230-3.png" /> <img src="./person-attributes-recognition-crossroad-230-4.png" /> <img src="./person-attributes-recognition-crossroad-230-5.png" /></p>
+<h2 id="specification">Specification</h2>
+<table>
+<colgroup>
+<col width="18%" />
+<col width="81%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Pedestrian pose</td>
+<td align="left">Standing person</td>
+</tr>
+<tr class="even">
+<td align="left">Occlusion coverage</td>
+<td align="left">&lt;20%</td>
+</tr>
+<tr class="odd">
+<td align="left">Min object width</td>
+<td align="left">80 pixels</td>
+</tr>
+<tr class="even">
+<td align="left">Supported attributes</td>
+<td align="left">is_male, has_bag, has_backpack, has hat, has longsleeves, has longpants, has longhair, has coat_jacket</td>
+</tr>
+<tr class="odd">
+<td align="left">GFlops</td>
+<td align="left">0.174</td>
+</tr>
+<tr class="even">
+<td align="left">MParams</td>
+<td align="left">0.735</td>
+</tr>
+<tr class="odd">
+<td align="left">Source framework</td>
+<td align="left">Pytorch*</td>
+</tr>
+</tbody>
+</table>
+<h2 id="accuracy">Accuracy</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Attribute</th>
+<th align="left">F1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>is_male</code></td>
+<td align="left">0.91</td>
+</tr>
+<tr class="even">
+<td align="left"><code>has_bag</code></td>
+<td align="left">0.66</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>has_backpack</code></td>
+<td align="left">0.77</td>
+</tr>
+<tr class="even">
+<td align="left"><code>has_hat</code></td>
+<td align="left">0.64</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>has_longsleeves</code></td>
+<td align="left">0.21</td>
+</tr>
+<tr class="even">
+<td align="left"><code>has_longpants</code></td>
+<td align="left">0.83</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>has_longhair</code></td>
+<td align="left">0.83</td>
+</tr>
+<tr class="even">
+<td align="left"><code>has_coat_jacket</code></td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li><p>name: &quot;input&quot; , shape: [1x3x160x80] - An input image in following format [1xCxHxW], where</p>
+<ul>
+<li>C - number of channels
+<ul>
+<li>H - image height</li>
+<li>W - image width.</li>
+</ul></li>
+</ul>
+<p>The expected color order is BGR.</p></li>
+</ol>
+<h2 id="outputs">Outputs</h2>
+<ol style="list-style-type: decimal">
+<li>The net outputs a blob named 453 with shape: [1, 8, 1, 1] across eight attributes: [<code>is_male</code>, <code>has_bag</code>, <code>has_backpack</code>, <code>has_hat</code>, <code>has_longsleeves</code>, <code>has_longpants</code>, <code>has_longhair</code>, <code>has_coat_jacket</code>]. Value &gt; 0.5 means that an attribute is present.</li>
+<li>The net outputs a blob named 456 with shape: [1, 2, 1, 1]. It is location of point with top color.</li>
+<li>The net outputs a blob named 459 with shape: [1, 2, 1, 1]. It is location of point with bottom color.</li>
+</ol>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

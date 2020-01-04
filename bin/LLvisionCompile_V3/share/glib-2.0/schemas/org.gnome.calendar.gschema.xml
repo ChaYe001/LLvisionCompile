@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-calendar">
+    <schema path="/org/gnome/calendar/" id="org.gnome.calendar">
+        <key type="b" name="window-maximized">
+            <default>true</default>
+            <summary>Window maximized</summary>
+            <description>Window maximized state</description>
+        </key>
+        <key type="ai" name="window-size">
+            <default>[768, 600]</default>
+            <summary>Window size</summary>
+            <description>Window size (width and height).</description>
+        </key>
+        <key type="ai" name="window-position">
+            <default>[]</default>
+            <summary>Window position</summary>
+            <description>Window position (x and y).</description>
+        </key>
+        <key name="active-view" enum="org.gnome.calendar.GcalWindowViewType">
+            <default>'month'</default>
+            <summary>Type of the active view</summary>
+            <description>Type of the active window view, default value is: monthly view</description>
+        </key>
+        <key type="as" name="disabled-sources">
+            <default>[]</default>
+            <summary>List of the disabled sources</summary>
+            <description>Sources disabled last time Calendar ran</description>
+        </key>
+    </schema>
+</schemalist>

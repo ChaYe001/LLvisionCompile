@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4874" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="96" viewBox="0 0 96 96.000001" width="96" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata4879">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(67.857 -78.505)">
+  <g id="g4845" transform="matrix(0 -1 -1 0 373.51 516.51)">
+   <g id="g4778" transform="matrix(-.99960 0 0 1 575.94 -611)">
+    <g id="g4780" transform="matrix(-1 0 0 1 576 611)">
+     <rect id="rect4782" style="color:#000000;fill:none" transform="scale(-1,1)" height="96" width="96.038" y="345.36" x="-438"/>
+     <path id="Youtube" style="stroke-width:1.0002;fill:#808080" d="m423.76 393.38s0.00008 20.151-0.97153 33.585c-0.22343 1.8765-0.24227 5.9672-4.0676 9.619-2.914 2.8783-9.532 3.8149-9.532 3.8149s-7.7718 0.96005-15.544 0.96005h-7.2861c-7.7714 0-15.543-0.96005-15.543-0.96005s-6.6178-0.93663-9.532-3.8149c-3.8248-3.6512-3.7041-8.449-4.1046-10.585-0.73707-7.6806-0.96466-32.64-0.96466-32.64s0.0301-20.172 1.0016-33.606c0.22427-1.8762 0.24334-5.9686 4.0686-9.619 2.914-2.878 9.532-3.8165 9.532-3.8165s7.771-0.95848 15.543-0.95848h7.2845c7.7717 0 15.544 0.95848 15.544 0.95848s6.618 0.93849 9.5325 3.8165c3.8248 3.6499 3.8439 7.7427 4.0676 9.619 0.97131 13.434 0.97099 33.586 0.97099 33.586v0.0411zm-19.245 9.8949-13.539-25.94-13.446 25.935 26.984 0.004z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2160" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48px" width="48px" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata2165">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>User</dc:title>
+    <dc:date>June 2007</dc:date>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Luca Ferretti &lt;elle.uca@libero.it&gt;</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>user</rdf:li>
+      <rdf:li>person</rdf:li>
+      <rdf:li>contact</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <rect id="rect8007" style="fill:none" ry="0" height="48" width="48" y="0" x="0"/>
+  <path id="path7036" style="stroke-linejoin:round;stroke:#fff;stroke-width:8;fill:#fff" d="m20 23h8c6.652 0 12 4.812 12 11.464v8.536h-32c0-5-0.0748-4.543-0.0748-8.536 0-6.652 5.4228-11.464 12.075-11.464z"/>
+  <path id="path6065" style="stroke:#fff;stroke-width:8;fill:#fff" d="m33.864 14a10.864 10.931 0 1 1 -21.728 0 10.864 10.931 0 1 1 21.728 0z" transform="translate(1,2)"/>
+  <path id="rect2176" d="m20 23h8c6.652 0 12 4.812 12 11.464v8.536h-32c0-5-0.0748-4.543-0.0748-8.536 0-6.652 5.4228-11.464 12.075-11.464z"/>
+  <path id="path3156" style="stroke-linejoin:round;fill-rule:evenodd;stroke:#fff;stroke-linecap:round;stroke-width:3;fill:#fff" d="m18 23l6 8 5.518-8h-11.518"/>
+  <path id="path3154" d="m33.864 14a10.864 10.931 0 1 1 -21.728 0 10.864 10.931 0 1 1 21.728 0z" transform="translate(1,2)"/>
+ </g>
+</svg>

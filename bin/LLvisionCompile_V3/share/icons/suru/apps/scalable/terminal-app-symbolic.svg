@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4874" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="96" viewBox="0 0 96 96.000001" width="96" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata4879">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(67.857 -78.505)">
+  <rect id="rect4782" style="color:#000000;fill:none" transform="rotate(90)" height="96" width="96" y="-28.143" x="78.505"/>
+  <path id="path4179" style="color-rendering:auto;text-decoration-color:#000000;color:#000000;font-variant-numeric:normal;shape-rendering:auto;solid-color:#000000;text-decoration-line:none;fill:#808080;font-variant-position:normal;mix-blend-mode:normal;font-feature-settings:normal;shape-padding:0;font-variant-alternates:normal;text-indent:0;font-variant-ligatures:normal;font-variant-caps:normal;image-rendering:auto;white-space:normal;text-decoration-style:solid;text-orientation:mixed;isolation:auto;text-transform:none" d="m19.977 12c-5.033 0.058-8.714-0.12-11.725 1.541-1.5055 0.831-2.6969 2.236-3.3555 3.99-0.6587 1.755-0.8965 3.839-0.8965 6.469v52c0 2.63 0.2378 4.712 0.8965 6.467 0.6586 1.754 1.85 3.159 3.3555 3.99 3.011 1.661 6.692 1.485 11.725 1.543h0.011 56.024 0.011c5.033-0.058 8.714 0.118 11.725-1.543 1.506-0.831 2.697-2.236 3.356-3.99 0.658-1.755 0.896-3.837 0.896-6.467v-52c0-2.63-0.238-4.714-0.896-6.469-0.659-1.754-1.85-3.159-3.356-3.99-3.011-1.661-6.692-1.483-11.725-1.541h-0.011-56.024-0.011zm0.023 4h56c5.038 0.059 8.352 0.237 9.816 1.045 0.734 0.405 1.153 0.853 1.543 1.893 0.391 1.039 0.641 2.692 0.641 5.062v52c0 2.37-0.25 4.023-0.641 5.062-0.39 1.04-0.809 1.488-1.543 1.893-1.464 0.808-4.778 0.986-9.816 1.045h-55.977-0.023c-5.038-0.059-8.352-0.237-9.816-1.045-0.734-0.405-1.1512-0.853-1.5414-1.893-0.3903-1.039-0.6426-2.692-0.6426-5.062v-52c0-2.37 0.2523-4.023 0.6426-5.062 0.3902-1.04 0.8074-1.488 1.5414-1.893 1.464-0.808 4.778-0.986 9.816-1.045zm-2.688 7.961l-1.312 3.949 13.324 5.344-13.324 5.346 1.312 3.947 17.143-7.258v-4.068l-17.143-7.26zm17.629 24.01v4.029h19.889v-4.029h-19.889z" transform="translate(-67.857 78.505)"/>
+ </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3140" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="90" width="90" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs3142">
+  <clipPath id="clipPath3003-1" clipPathUnits="userSpaceOnUse">
+   <path id="path3005-9" style="opacity:.1;color:#000000;fill:#f0f" d="m60 414.36v90h72v-41.469c-2.6124-1.2936-5.6517-2.9079-8.7188-4.6875-3.2275-1.8727-6.3543-3.8753-8.8438-5.5625-1.2447-0.8436-2.4002-1.6208-3.3438-2.4062-0.47179-0.39271-0.84797-0.71658-1.375-1.3125s-1.8438-0.98832-1.8438-4.5312 1.3167-3.9353 1.8438-4.5312c0.52703-0.59592 0.90321-0.88854 1.375-1.2812 0.94358-0.78545 2.099-1.5626 3.3438-2.4062 2.4895-1.6872 5.6162-3.6898 8.8438-5.5625 3.0671-1.7796 6.1064-3.3939 8.7188-4.6875v-11.562h-72z"/>
+  </clipPath>
+ </defs>
+ <metadata id="metadata3145">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -962.36)">
+  <rect id="rect4198" style="color:#000000;fill:none" height="90" width="90" y="962.36" x="0"/>
+  <g id="g4978" transform="translate(-60 548)">
+   <path id="path3759" style="fill:#808080" transform="translate(60 414.36)" d="m30 6c-27 0-30 0-30 18v42c0 18 3 18 30 18h12c27 0 30 0 30-18v-17.469c-1.827-0.905-3.892-1.991-6-3.156v8.625c0 12 0 12-24 12h-12c-24 0-24 0-24-12v-30c0-12 0-12 24-12h12c15.596 0 21.056 0.02 22.969 3.312 1.98-1.114 3.872-2.155 5.656-3.062-2.56-6.2384-9.659-6.25-28.625-6.25h-12z"/>
+   <path id="path4072" style="fill:#808080" d="m72 468.36v-15l12-12 15 15 6-6 15 15v3c0 6-1 6-12 6h-24c-11 0-12 0-12-6z"/>
+   <path id="path4500-9" d="m138 438.36v12h12v-12h-12z" style="color:#000000;fill:#808080"/>
+   <path id="path4502-7" style="color:#000000;fill:#808080" transform="matrix(2.954 0 0 2.9623 -196.67 -71.315)" d="m113.92 179.14c-0.52479 0.30299-8.7464-4.4438-8.7464-5.0498 0-0.60597 8.2216-5.3527 8.7464-5.0498 0.52 0.31 0.52 9.8 0 10.1z"/>
+   <rect id="rect2991" style="color:#000000;fill:none" transform="translate(60 414.36)" height="90" width="90" y=".000017383" x="0"/>
+  </g>
+ </g>
+ <g id="layer2" style="display:none">
+  <path id="path3759-4" style="fill:#808080" d="m60 438.36v42c0 18 3 18 30 18h12c27 0 30 0 30-18v-42c0-18-3-18-30-18h-12c-27 0-30 0-30 18zm30-12h12c24 0 24 0 24 12v30c0 12 0 12-24 12h-12c-24 0-24 0-24-12v-30c0-12 0-12 24-12z" clip-path="url(#clipPath3003-1)" transform="translate(-60 -414.36)"/>
+  <path id="path4072-3" style="fill:#808080" d="m12 54v-15l12-12 15 15 6-6 15 15v3c0 6-1 6-12 6h-24c-11 0-12 0-12-6z"/>
+  <path id="path4500-9-0" d="m78 24v12h12v-12h-12z" style="color:#000000;display:inline;fill:#808080"/>
+  <path id="path4502-7-0" style="color:#000000;display:inline;fill:#808080" transform="matrix(2.954 0 0 2.9623 -256.67 -485.68)" d="m113.92 179.14c-0.52479 0.30299-8.7464-4.4438-8.7464-5.0498 0-0.60597 8.2216-5.3527 8.7464-5.0498 0.52 0.31 0.52 9.8 0 10.1z"/>
+  <rect id="rect2991-3" style="color:#000000;display:inline;fill:none" height="90" width="90" y=".000017224" x="0"/>
+ </g>
+</svg>

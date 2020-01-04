@@ -1,0 +1,107 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="person-detection-action-recognition-0005">person-detection-action-recognition-0005</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This is an action detector for the Smart Classroom scenario. It is based on the RMNet backbone that includes depth-wise convolutions to reduce the amount of computations for the 3x3 convolution block. The first SSD head from 1/16 scale feature map has four clustered prior boxes and outputs detected persons (two class detector). The second SSD-based head predicts actions of the detected persons. Possible actions: sitting, standing, raising hand.</p>
+<h2 id="example">Example</h2>
+<div class="figure">
+<img src="./person-detection-action-recognition-0005.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Detector AP (internal test set 2)</td>
+<td align="left">82.79%</td>
+</tr>
+<tr class="even">
+<td align="left">Accuracy (internal test set 2)</td>
+<td align="left">93.55%</td>
+</tr>
+<tr class="odd">
+<td align="left">Pose coverage</td>
+<td align="left">Sitting, standing, raising hand</td>
+</tr>
+<tr class="even">
+<td align="left">Support of occluded pedestrians</td>
+<td align="left">YES</td>
+</tr>
+<tr class="odd">
+<td align="left">Occlusion coverage</td>
+<td align="left">&lt;50%</td>
+</tr>
+<tr class="even">
+<td align="left">Min pedestrian height</td>
+<td align="left">80 pixels (on 1080p)</td>
+</tr>
+<tr class="odd">
+<td align="left">GFlops</td>
+<td align="left">7.140</td>
+</tr>
+<tr class="even">
+<td align="left">MParams</td>
+<td align="left">1.951</td>
+</tr>
+<tr class="odd">
+<td align="left">Source framework</td>
+<td align="left">Caffe*</td>
+</tr>
+</tbody>
+</table>
+<p>Average Precision (AP) is defined as an area under the <a href="https://en.wikipedia.org/wiki/Precision_and_recall">precision/recall</a> curve.</p>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: &quot;input&quot; , shape: [1x3x400x680] - An input image in the format [BxCxHxW], where:
+<ul>
+<li>B - batch size</li>
+<li>C - number of channels</li>
+<li>H - image height</li>
+<li>W - image width</li>
+</ul></li>
+</ol>
+<p>Expected color order is BGR.</p>
+<h2 id="outputs">Outputs</h2>
+<p>The net outputs four branches:</p>
+<ol style="list-style-type: decimal">
+<li>name: <code>mbox_loc1/out/conv/flat</code>, shape: [b, num_priors*4] - Box coordinates in SSD format</li>
+<li>name: <code>mbox_main_conf/out/conv/flat/softmax/flat</code>, shape: [b, num_priors*2] - Detection confidences</li>
+<li>name: <code>mbox/priorbox</code>, shape: [1, 2, num_priors*4] - Prior boxes in SSD format</li>
+<li>name: <code>out/anchor1</code>, shape: [b, 3, h, w] - Action confidences</li>
+<li>name: <code>out/anchor2</code>, shape: [b, 3, h, w] - Action confidences</li>
+<li>name: <code>out/anchor3</code>, shape: [b, 3, h, w] - Action confidences</li>
+<li>name: <code>out/anchor4</code>, shape: [b, 3, h, w] - Action confidences</li>
+</ol>
+<p>Where: - b - batch size - num_priors - number of priors in SSD format (equal to 25x43x4=4300) - h, w - height and width of the output feature map (h=25, w=43)</p>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

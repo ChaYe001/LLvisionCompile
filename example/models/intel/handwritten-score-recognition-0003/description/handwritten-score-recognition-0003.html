@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="handwritten-score-recognition-0003">handwritten-score-recognition-0003</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This is a network for text recognition scenario. It consists of VGG16-like backbone and bidirectional LSTM encoder-decoder. The network is able to recognize school marks that should have format either <code>&lt;digit&gt;</code> or <code>&lt;digit&gt;.&lt;digit&gt;</code> (e.g. <code>4</code> or <code>3.5</code>).</p>
+<h2 id="example">Example</h2>
+<p><img src="./shot_25.png" /> -&gt; Mark2.5</p>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Accuracy (internal test set)</td>
+<td align="left">98.83%</td>
+</tr>
+<tr class="even">
+<td align="left">Text location requirements</td>
+<td align="left">Tight aligned crop</td>
+</tr>
+<tr class="odd">
+<td align="left">GFlops</td>
+<td align="left">0.792</td>
+</tr>
+<tr class="even">
+<td align="left">MParams</td>
+<td align="left">5.555</td>
+</tr>
+<tr class="odd">
+<td align="left">Source framework</td>
+<td align="left">TensorFlow</td>
+</tr>
+</tbody>
+</table>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<p>Shape: [1x1x32x64] - An input image in the format [BxCxHxW], where: - B - batch size - C - number of channels - H - image height - W - image width</p>
+<p>Note that the source image should be tight aligned crop with detected text converted to grayscale.</p>
+<h2 id="outputs">Outputs</h2>
+<p>The net outputs a blob with the shape [16, 1, 13] in the format [WxBxL], where: - W - output sequence length - B - batch size - L - confidence distribution across the alphabet: <code>&quot;0123456789._#&quot;</code>, where # - special blank character for CTC decoding algorithm and the character <code>'_'</code> replaces all non-numeric symbols.</p>
+<p>The network output can be decoded by CTC Greedy Decoder or CTC Beam Search decoder.</p>
+<h2 id="legal-information">Legal Information</h2>
+</div>
+</body>
+</html>

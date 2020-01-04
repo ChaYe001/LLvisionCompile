@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+<link rel="stylesheet" href="../../intel_styles.css" type="text/css" />
+</head>
+<body>
+<div id="banner">
+    <div id="bannerblock">
+      <img src="../../intel_logo.png" class="intellogo">
+      <h1 class="title">Overview of OpenVINO&trade; toolkit Pre-trained Models</h1>
+    </div>
+  </div>
+<div id="contentblock">
+<h1 id="person-reidentification-retail-0031">person-reidentification-retail-0031</h1>
+<h2 id="use-case-and-high-level-description">Use Case and High-Level Description</h2>
+<p>This is a person reidentification model for a general scenario. It uses a whole body image as an input and outputs an embedding vector to match a pair of images by the Cosine distance. The model is based on RMNet backbone that was developed for fast inference. A single reidentification head from the 1/16 scale feature map outputs the embedding vector of 256 floats.</p>
+<h2 id="example">Example</h2>
+<div class="figure">
+<img src="./person-reidentification-retail-0031.png" />
+
+</div>
+<h2 id="specification">Specification</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Metric</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Market-1501 rank@1 accuracy</td>
+<td align="left">0.7791</td>
+</tr>
+<tr class="even">
+<td align="left">Market-1501 mAP</td>
+<td align="left">0.6180</td>
+</tr>
+<tr class="odd">
+<td align="left">Pose coverage</td>
+<td align="left">Standing upright, parallel to image plane</td>
+</tr>
+<tr class="even">
+<td align="left">Support of occluded pedestrians</td>
+<td align="left">YES</td>
+</tr>
+<tr class="odd">
+<td align="left">Occlusion coverage</td>
+<td align="left">&lt;50%</td>
+</tr>
+<tr class="even">
+<td align="left">GFlops</td>
+<td align="left">0.028</td>
+</tr>
+<tr class="odd">
+<td align="left">MParams</td>
+<td align="left">0.280</td>
+</tr>
+<tr class="even">
+<td align="left">Source framework</td>
+<td align="left">Caffe*</td>
+</tr>
+</tbody>
+</table>
+<p>The cumulative matching curve (CMC) at rank-1 is accuracy denoting the possibility to locate at least one true positive in the top-1 rank. Mean Average Precision (mAP) is the mean across all queries’ Average Precision (AP) and AP is defined as an area under the <a href="https://en.wikipedia.org/wiki/Precision_and_recall">precision/recall</a> curve.</p>
+<h2 id="performance">Performance</h2>
+<h2 id="inputs">Inputs</h2>
+<ol style="list-style-type: decimal">
+<li>name: &quot;data&quot; , shape: [1x3x96x48] - An input image in the format [BxCxHxW], where:
+<ul>
+<li>B - batch size</li>
+<li>C - number of channels</li>
+<li>H - image height</li>
+<li>W - image width</li>
+</ul></li>
+</ol>
+<p>The expected color order is BGR.</p>
+<h2 id="outputs">Outputs</h2>
+<ol style="list-style-type: decimal">
+<li>The net outputs a blob with shape: [1, 256, 1, 1] named descriptor, which can be compared with other descriptors using the <a href="https://en.wikipedia.org/wiki/Cosine_similarity">Cosine distance</a>.</li>
+</ol>
+<h2 id="legal-information">Legal Information</h2>
+<p>[*] Other names and brands may be claimed as the property of others.</p>
+</div>
+</body>
+</html>

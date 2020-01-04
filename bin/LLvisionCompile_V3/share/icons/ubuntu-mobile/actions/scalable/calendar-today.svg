@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3140" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="90" width="90" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3145">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -962.36)">
+  <rect id="rect4198" style="color:#000000;fill:none" height="90" width="90" y="962.36" x="0"/>
+  <path id="path3759" style="fill:#808080" d="m35.914 6v9c0 4.836-4.078 8.914-8.914 8.914s-8.914-4.078-8.914-8.914v-8.5469c-10.527 1.0769-12.086 4.7729-12.086 17.547v42c0 18 3 18 30 18h18c27 0 30 0 30-18v-42c0-12.774-1.559-16.47-12.086-17.547v8.547c0 4.836-4.078 8.914-8.914 8.914s-8.914-4.078-8.914-8.914v-9h-0.086-18-0.086zm0.086 24h18c24 0 24 0 24 12v24c0 12 0 12-24 12h-18c-24 0-24 0-24-12v-24c0-12 0-12 24-12z" transform="translate(0 962.36)"/>
+  <path id="path4041-9" style="fill:#808080" d="m68.17 998.36-0.36068 0.31559-25.918 22.702-15.193-13.033-4.593 5.194 19.79 20.822l30.105-31.7-3.83-4.34z"/>
+  <rect id="rect4114" style="color:#000000;fill:#808080" ry="3" height="18" width="6" y="962.36" x="24"/>
+  <rect id="rect4122" style="color:#000000;fill:#808080" ry="3" height="18" width="6" y="962.36" x="60"/>
+ </g>
+</svg>

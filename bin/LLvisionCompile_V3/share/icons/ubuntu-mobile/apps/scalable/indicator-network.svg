@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3289" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="134" width="144" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3294">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(-0.0000408 -918.36)">
+  <rect id="rect3011" style="color:#000000;fill:#25211f" height="134" width="144" y="918.36" x="0.0000408"/>
+  <rect id="rect4431" style="fill:none" height="144" width="144" y="913.36" x="0.0000408"/>
+  <path id="path4433" style="fill:#ccc" d="m158 204c0 1.1046-0.89543 2-2 2s-2-0.89543-2-2 0.89543-2 2-2 2 0.89543 2 2z" transform="matrix(5.9999 0 0 5.9999 -863.99 -238.62)"/>
+  <path id="path4435" style="fill:#ccc" d="m66 1002v25.312c0 5.9999 3 5.9999 6 5.9999s6 0 6-5.9999v-25.312c-1.8468 0.8125-3.8528 1.3123-6 1.3123s-4.1532-0.4998-6-1.3123z"/>
+  <path id="path4437" d="m72 955.48c-7.6872 0-15.278 2.9264-21.117 8.7656-11.678 11.678-11.678 30.557 0 42.235l6.375-6.375c-8.2387-8.2386-8.2387-21.246 0-29.485 8.2388-8.2386 21.246-8.2386 29.485 0 8.2387 8.2386 8.2387 21.246 0 29.485l6.375 6.375c11.678-11.678 11.678-30.556 0-42.235-5.839-5.8392-13.43-8.7656-21.117-8.7656z" style="block-progression:tb;text-indent:0;color:#000000;text-transform:none;fill:#ccc"/>
+  <path id="path4439" d="m72 937.1c-12.294 0-24.631 4.9197-33.984 14.273-18.708 18.707-18.708 49.261 0 67.969l6.1172-6.117c-15.268-15.268-15.268-40.466 0-55.734s40.466-15.268 55.734 0 15.268 40.466 0 55.734l6.1172 6.117c18.708-18.707 18.708-49.261 0-67.969-9.3536-9.3537-21.691-14.273-33.984-14.273z" style="opacity:.5;block-progression:tb;text-indent:0;color:#000000;text-transform:none;fill:#ccc"/>
+ </g>
+</svg>
