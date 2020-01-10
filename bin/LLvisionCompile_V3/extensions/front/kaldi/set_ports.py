@@ -32,7 +32,8 @@ class SetPortsPattern(FrontReplacementSubgraph):
 
     def find_and_replace_pattern(self, graph: Graph):
         graph.stage = 'front'
-        nodes = graph.nodes(data=False).keys()
+        # nodes = graph.nodes(data=False).keys()
+        nodes = graph.nodes(data=False)
         for node_id in nodes:
             node = Node(graph, node_id)
             inputs = node.get_sorted_inputs()
